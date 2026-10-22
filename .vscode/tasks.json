@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Backend (Go)",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File .\\start-backend.ps1",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "group": "servers",
+        "panel": "dedicated",
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Start Frontend (Next.js)",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File .\\start-frontend.ps1",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "group": "servers",
+        "panel": "dedicated",
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Run Both Backend & Frontend",
+      "dependsOn": [
+        "Start Backend (Go)",
+        "Start Frontend (Next.js)"
+      ],
+      "dependsOrder": "parallel",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Run Automated E2E Tests",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File .\\test-e2e.ps1",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}

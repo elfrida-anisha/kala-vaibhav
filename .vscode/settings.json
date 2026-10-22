@@ -1,0 +1,9 @@
+{
+  "go.goroot": "C:\\Users\\Elfrida\\.gemini\\antigravity\\scratch\\go",
+  "go.alternateTools": {
+    "go": "C:\\Users\\Elfrida\\.gemini\\antigravity\\scratch\\go\\bin\\go.exe"
+  },
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\Elfrida\\.gemini\\antigravity\\scratch\\go\\bin;${env:PATH}"
+  }
+}

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF7F0;
+  --foreground: #272522;
+  --ivory: #FAF7F0;
+  --indigo: #253451;
+  --indigo-light: #34486E;
+  --terracotta: #B65F43;
+  --terracotta-dark: #974931;
+  --gold: #C5A56A;
+  --gold-light: #E8D8B6;
+  --charcoal: #272522;
+  --charcoal-muted: #5C5853;
+  --card: #FFFFFF;
+  --card-border: #E8E2D6;
+  --badge-bg: #F4EFE6;
+}
+
+@theme {
+  --color-ivory: var(--ivory);
+  --color-indigo: var(--indigo);
+  --color-indigo-light: var(--indigo-light);
+  --color-terracotta: var(--terracotta);
+  --color-terracotta-dark: var(--terracotta-dark);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-muted: var(--charcoal-muted);
+  --color-card-border: var(--card-border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  min-height: 100vh;
+}
+
+/* Subtle Indian craft heritage pattern accents */
+.motif-border {
+  border-image: linear-gradient(to right, #B65F43, #C5A56A, #253451) 1;
+}
+
+.craft-gradient {
+  background: linear-gradient(135deg, #253451 0%, #34486E 60%, #B65F43 100%);
+}
+
+.warm-card {
+  background: #FFFFFF;
+  border: 1px solid #E8E2D6;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px -2px rgba(39, 37, 34, 0.05);
+}
+
+.warm-card:hover {
+  border-color: #D6CCA9;
+  box-shadow: 0 8px 24px -4px rgba(37, 52, 81, 0.08);
+}

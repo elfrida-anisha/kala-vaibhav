@@ -1,0 +1,679 @@
+{
+  "users": {
+    "11111111-1111-1111-1111-111111111111": {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "email": "sunita.devi@kalavaibhav.demo",
+      "fullName": "Sunita Devi",
+      "role": "artisan",
+      "phone": "+91 98450 12345",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "bio": "Master artisan in GI-tagged Kasuti embroidery from Dharwad, Karnataka. Practicing traditional geometric needlework for over 18 years.",
+      "region": "Dharwad, Karnataka",
+      "createdAt": "2026-09-22T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "22222222-2222-2222-2222-222222222222": {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "email": "rameshwar.soni@kalavaibhav.demo",
+      "fullName": "Rameshwar Soni",
+      "role": "artisan",
+      "phone": "+91 98290 67890",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "bio": "Third-generation Blue Pottery ceramist from Kot Jeweler, Jaipur. Preserving quartz stone and natural cobalt oxide glazing techniques.",
+      "region": "Jaipur, Rajasthan",
+      "createdAt": "2026-09-27T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "33333333-3333-3333-3333-333333333333": {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "email": "manju.gowda@kalavaibhav.demo",
+      "fullName": "Manju Gowda",
+      "role": "artisan",
+      "phone": "+91 94480 34567",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "bio": "Dedicated turner and carver of Channapatna GI-certified lacquer toys using natural vegetable dyes and Hale wood.",
+      "region": "Channapatna, Karnataka",
+      "createdAt": "2026-10-02T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "44444444-4444-4444-4444-444444444444": {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "email": "anamika.buyer@kalavaibhav.demo",
+      "fullName": "Anamika Sharma",
+      "role": "buyer",
+      "phone": "+91 98110 55555",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "bio": "Architect \u0026 folk art collector passionate about handcrafted heirloom textiles and ethical living.",
+      "region": "Bengaluru, Karnataka",
+      "createdAt": "2026-10-07T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "55555555-5555-5555-5555-555555555555": {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "email": "curator.admin@kalavaibhav.demo",
+      "fullName": "Vikramaditya Rao",
+      "role": "admin",
+      "phone": "+91 99000 99999",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "bio": "Platform Curator \u0026 Provenance Verification Officer at Kala Vaibhav.",
+      "region": "New Delhi",
+      "createdAt": "2026-09-12T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "artisans": {
+    "11111111-1111-1111-1111-111111111111": {
+      "id": "aa111111-1111-1111-1111-111111111111",
+      "profileId": "11111111-1111-1111-1111-111111111111",
+      "craftSpecialty": "Kasuti Embroidery",
+      "experienceYears": 18,
+      "studioAddress": "Gokul Road, Dharwad",
+      "state": "Karnataka",
+      "verificationStatus": "independently-verified",
+      "verificationNotes": "Karnataka Handloom Development Board certified master artisan. Verified on-site audit.",
+      "phonePublic": true,
+      "giTagAffiliated": true,
+      "createdAt": "2026-09-22T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "22222222-2222-2222-2222-222222222222": {
+      "id": "aa222222-2222-2222-2222-222222222222",
+      "profileId": "22222222-2222-2222-2222-222222222222",
+      "craftSpecialty": "Jaipur Blue Pottery",
+      "experienceYears": 24,
+      "studioAddress": "Kukas Artisan Cluster, Jaipur",
+      "state": "Rajasthan",
+      "verificationStatus": "independently-verified",
+      "verificationNotes": "National awardee heritage lineage; authentic lead-free quartz glaze audit.",
+      "phonePublic": true,
+      "giTagAffiliated": true,
+      "createdAt": "2026-09-27T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "33333333-3333-3333-3333-333333333333": {
+      "id": "aa333333-3333-3333-3333-333333333333",
+      "profileId": "33333333-3333-3333-3333-333333333333",
+      "craftSpecialty": "Channapatna Lacquerware",
+      "experienceYears": 12,
+      "studioAddress": "Craft Complex, Channapatna",
+      "state": "Karnataka",
+      "verificationStatus": "community-reviewed",
+      "verificationNotes": "Member of Karnataka Channapatna Crafts Guild; non-toxic natural dye certification.",
+      "phonePublic": true,
+      "giTagAffiliated": true,
+      "createdAt": "2026-10-02T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "products": {
+    "59fc28c6-22fa-4d35-befc-7d57c9dc11ac": {
+      "id": "59fc28c6-22fa-4d35-befc-7d57c9dc11ac",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "artisanRegion": "Dharwad, Karnataka",
+      "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "title": "Handcrafted Test Silk Stole",
+      "craftType": "Kasuti Embroidery",
+      "category": "Textiles \u0026 Embroidery",
+      "description": "Authentic counted-thread silk stole with temple motifs",
+      "price": 1200,
+      "currency": "INR",
+      "materials": "Pure Silk",
+      "timeToMake": "4 days",
+      "stockQuantity": 4,
+      "status": "active",
+      "region": "Dharwad, Karnataka",
+      "images": [
+        {
+          "id": "1",
+          "productId": "",
+          "imageUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": true,
+          "displayOrder": 1,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "createdAt": "2026-10-22T21:34:06.3274286+05:30",
+      "updatedAt": "2026-10-22T21:34:06.3274286+05:30"
+    },
+    "846a5c90-824e-4ba5-9687-0c415a85e2c3": {
+      "id": "846a5c90-824e-4ba5-9687-0c415a85e2c3",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "artisanRegion": "Dharwad, Karnataka",
+      "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "title": "Handcrafted jute bag",
+      "craftType": "Traditional Craft",
+      "category": "Crafts \u0026 Living",
+      "description": "Handcrafted Artisan Item, lovingly handcrafted using authentic Traditional Craft heritage techniques over 2 days.",
+      "price": 500,
+      "currency": "INR",
+      "materials": "Pure Handloom Cotton",
+      "timeToMake": "2 days",
+      "stockQuantity": 1,
+      "status": "active",
+      "region": "Dharwad, Karnataka",
+      "images": [
+        {
+          "id": "1",
+          "productId": "",
+          "imageUrl": "http://localhost:8080/uploads/489e7971-a7fa-4310-9b4f-56d28337d8ab.webp",
+          "isPrimary": true,
+          "displayOrder": 1,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "createdAt": "2026-10-22T21:44:34.5352423+05:30",
+      "updatedAt": "2026-10-22T21:44:34.5352423+05:30"
+    },
+    "p1010101-1010-1010-1010-101010101010": {
+      "id": "p1010101-1010-1010-1010-101010101010",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "artisanRegion": "Dharwad, Karnataka",
+      "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "title": "Hand-Embroidered Kasuti Silk Tote Bag",
+      "craftType": "Kasuti Embroidery",
+      "category": "Textiles \u0026 Embroidery",
+      "description": "A heritage tote bag crafted in pure mulberry raw silk featuring intricate Gavanti (double running stitch) and Muragi (zigzag) motifs of temple towers (Gopuram) and sacred peacocks. No knot is visible on either side.",
+      "price": 1450,
+      "currency": "INR",
+      "materials": "Pure Mulberry Silk, Hand-spun Cotton Thread",
+      "timeToMake": "5 days",
+      "stockQuantity": 6,
+      "status": "active",
+      "region": "Karnataka",
+      "images": [
+        {
+          "id": "img1-1",
+          "productId": "p1010101-1010-1010-1010-101010101010",
+          "imageUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": true,
+          "displayOrder": 1,
+          "createdAt": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": "img1-2",
+          "productId": "p1010101-1010-1010-1010-101010101010",
+          "imageUrl": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": false,
+          "displayOrder": 2,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "createdAt": "2026-10-12T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "p2020202-2020-2020-2020-202020202020": {
+      "id": "p2020202-2020-2020-2020-202020202020",
+      "artisanId": "22222222-2222-2222-2222-222222222222",
+      "artisanName": "Rameshwar Soni",
+      "artisanRegion": "Jaipur, Rajasthan",
+      "artisanAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "title": "Handcrafted Cobalt Blue Quartz Vase",
+      "craftType": "Blue Pottery",
+      "category": "Pottery \u0026 Ceramics",
+      "description": "Traditional Jaipur Blue Pottery vase crafted from crushed quartz stone powder, Fuller's earth, and natural gum, adorned with royal Mughal botanical motifs painted by squirrel-hair brush in cobalt and turquoise.",
+      "price": 2200,
+      "currency": "INR",
+      "materials": "Quartz Stone Powder, Glass, Katira Gum, Natural Cobalt Oxide",
+      "timeToMake": "7 days",
+      "stockQuantity": 4,
+      "status": "active",
+      "region": "Rajasthan",
+      "images": [
+        {
+          "id": "img2-1",
+          "productId": "p2020202-2020-2020-2020-202020202020",
+          "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": true,
+          "displayOrder": 1,
+          "createdAt": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": "img2-2",
+          "productId": "p2020202-2020-2020-2020-202020202020",
+          "imageUrl": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": false,
+          "displayOrder": 2,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "createdAt": "2026-10-14T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "p3030303-3030-3030-3030-303030303030": {
+      "id": "p3030303-3030-3030-3030-303030303030",
+      "artisanId": "33333333-3333-3333-3333-333333333333",
+      "artisanName": "Manju Gowda",
+      "artisanRegion": "Channapatna, Karnataka",
+      "artisanAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "title": "GI-Certified Channapatna Wooden Stacking Rings",
+      "craftType": "Woodwork \u0026 Toys",
+      "category": "Toys \u0026 Living",
+      "description": "Safe, eco-friendly Montessori stacking toy hand-turned on traditional lathe from seasoned Wrightia tinctoria (Aale Mara) softwood. Lustrous finish achieved solely with natural tree lacquer and vegetable turmeric/indigo dyes.",
+      "price": 780,
+      "currency": "INR",
+      "materials": "Seasoned Hale Wood, Natural Lac Resin, Turmeric, Indigo",
+      "timeToMake": "2 days",
+      "stockQuantity": 15,
+      "status": "active",
+      "region": "Karnataka",
+      "images": [
+        {
+          "id": "img3-1",
+          "productId": "p3030303-3030-3030-3030-303030303030",
+          "imageUrl": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": true,
+          "displayOrder": 1,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "createdAt": "2026-10-16T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "p4040404-4040-4040-4040-404040404040": {
+      "id": "p4040404-4040-4040-4040-404040404040",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "artisanRegion": "Dharwad, Karnataka",
+      "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "title": "Kasuti Temple Border Handloom Dupatta",
+      "craftType": "Kasuti Embroidery",
+      "category": "Textiles \u0026 Embroidery",
+      "description": "Fine handwoven Chanderi cotton-silk dupatta adorned with traditional chariot (Ratha) and lotus (Kamala) Kasuti needlework on borders and pallu. Each geometric motif requires over 1,200 counted threads.",
+      "price": 3600,
+      "currency": "INR",
+      "materials": "Chanderi Cotton-Silk, Resham Threads",
+      "timeToMake": "12 days",
+      "stockQuantity": 3,
+      "status": "active",
+      "region": "Karnataka",
+      "images": [
+        {
+          "id": "img4-1",
+          "productId": "p4040404-4040-4040-4040-404040404040",
+          "imageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "isPrimary": true,
+          "displayOrder": 1,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "createdAt": "2026-10-17T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "passports": {
+    "59fc28c6-22fa-4d35-befc-7d57c9dc11ac": {
+      "id": "86843657-2ca3-4365-af69-401b812fdb4f",
+      "productId": "59fc28c6-22fa-4d35-befc-7d57c9dc11ac",
+      "passportNumber": "KV-PASSPORT-DHA-5046",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "craftName": "Kasuti Embroidery",
+      "region": "Dharwad, Karnataka",
+      "materials": "Pure Silk",
+      "techniques": "Traditional handcrafted technique",
+      "timeAndEffort": "4 days",
+      "culturalStory": "Authentic counted-thread silk stole with temple motifs",
+      "provenanceStatus": "artisan-declared",
+      "createdAt": "2026-10-22T21:34:06.3274286+05:30",
+      "updatedAt": "2026-10-22T21:34:06.3274286+05:30"
+    },
+    "846a5c90-824e-4ba5-9687-0c415a85e2c3": {
+      "id": "6be12638-3d32-40ac-85f8-8e78f21f99d4",
+      "productId": "846a5c90-824e-4ba5-9687-0c415a85e2c3",
+      "passportNumber": "KV-PASSPORT-DHA-5674",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "craftName": "Traditional Craft",
+      "region": "Dharwad, Karnataka",
+      "materials": "Pure Handloom Cotton",
+      "techniques": "Traditional handcrafted technique",
+      "timeAndEffort": "2 days",
+      "culturalStory": "Handcrafted Artisan Item, lovingly handcrafted using authentic Traditional Craft heritage techniques over 2 days.",
+      "provenanceStatus": "artisan-declared",
+      "createdAt": "2026-10-22T21:44:34.5352423+05:30",
+      "updatedAt": "2026-10-22T21:44:34.5352423+05:30"
+    },
+    "p1010101-1010-1010-1010-101010101010": {
+      "id": "pass-1",
+      "productId": "p1010101-1010-1010-1010-101010101010",
+      "passportNumber": "KV-PASSPORT-KTK-2026-0041",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "craftName": "Kasuti Needlecraft of Karnataka",
+      "region": "Dharwad, Karnataka (GI Registry 2006)",
+      "materials": "Pure Raw Silk, Organic dyed cotton thread",
+      "techniques": "Counted-thread embroidery with Gavanti, Muragi, Negi, and Menthi stitches without frame or tracings",
+      "timeAndEffort": "5 working days (approx 34 hours of fine hand-needlework)",
+      "culturalStory": "Kasuti has been practiced since the Chalukya dynasty (6th-12th century). Women traditionally stitched cradle covers and wedding saris with symbols of divine protection and sacred architecture.",
+      "provenanceStatus": "independently-verified",
+      "verificationDetails": {
+        "auditDate": "2026-04-12",
+        "giCertified": true,
+        "verifiedBy": "Karnataka Handloom Development Board Audit"
+      },
+      "createdAt": "2026-10-12T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "p2020202-2020-2020-2020-202020202020": {
+      "id": "pass-2",
+      "productId": "p2020202-2020-2020-2020-202020202020",
+      "passportNumber": "KV-PASSPORT-RAJ-2026-0118",
+      "artisanId": "22222222-2222-2222-2222-222222222222",
+      "artisanName": "Rameshwar Soni",
+      "craftName": "Jaipur Blue Pottery Glazed Ware",
+      "region": "Jaipur, Rajasthan (GI Registry 2008)",
+      "materials": "Ground quartz powder, cullet glass, katira gond, Multani mitti",
+      "techniques": "Low-fire ceramic casting without clay, manual hand-painting with mineral oxides, and lead-free quartz glazing",
+      "timeAndEffort": "7 days including curing, drying, detailing and 800°C kiln firing",
+      "culturalStory": "Brought to Jaipur under Sawai Ram Singh II in the 19th century, this unique pottery uses no clay and produces a characteristic translucent, semi-porcelain finish prized worldwide.",
+      "provenanceStatus": "independently-verified",
+      "verificationDetails": {
+        "auditDate": "2026-05-19",
+        "giCertified": true,
+        "verifiedBy": "Jaipur Handicrafts Association"
+      },
+      "createdAt": "2026-10-14T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "p3030303-3030-3030-3030-303030303030": {
+      "id": "pass-3",
+      "productId": "p3030303-3030-3030-3030-303030303030",
+      "passportNumber": "KV-PASSPORT-KTK-2026-0205",
+      "artisanId": "33333333-3333-3333-3333-333333333333",
+      "artisanName": "Manju Gowda",
+      "craftName": "Channapatna Ivory-Wood Lacquerware",
+      "region": "Channapatna (Gombegala Ooru), Karnataka",
+      "materials": "Wrightia tinctoria softwood, natural button lac, vegetable turmeric, indigo",
+      "techniques": "Hand lathe-turning, friction-burnishing with dry screw pine leaf (Talegari) for natural high gloss",
+      "timeAndEffort": "2 days handcrafting and seasoning",
+      "culturalStory": "Originating during Tipu Sultan's reign, who invited Persian artisans to train locals in lathe woodworking. Today it is celebrated globally as India's safest, non-toxic eco-toy heritage.",
+      "provenanceStatus": "community-reviewed",
+      "verificationDetails": {
+        "communityConsensus": "Authentic Hale Wood and Non-toxic Lacquer",
+        "reviewedBy": "Channapatna Artisans Welfare Guild"
+      },
+      "createdAt": "2026-10-16T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    },
+    "p4040404-4040-4040-4040-404040404040": {
+      "id": "pass-4",
+      "productId": "p4040404-4040-4040-4040-404040404040",
+      "passportNumber": "KV-PASSPORT-KTK-2026-0312",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "craftName": "Kasuti Chanderi Temple Dupatta",
+      "region": "Dharwad, Karnataka (GI Registry 2006)",
+      "materials": "Chanderi Cotton-Silk, Resham Threads",
+      "techniques": "Intricate geometric counted-thread embroidery depicting sacred chariot motifs",
+      "timeAndEffort": "12 days handcrafting (over 1,200 counted threads per motif)",
+      "culturalStory": "Heritage bridal and festive wrap symbolizing prosperity, stitched with auspicious temple architecture motifs.",
+      "provenanceStatus": "independently-verified",
+      "verificationDetails": {
+        "auditDate": "2026-04-12",
+        "giCertified": true,
+        "verifiedBy": "Karnataka Handloom Development Board Audit"
+      },
+      "createdAt": "2026-10-17T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "journeyItems": {
+    "cj1-1": {
+      "id": "cj1-1",
+      "productId": "p1010101-1010-1010-1010-101010101010",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "title": "Selecting Handloom Silk Fabric",
+      "description": "Carefully inspecting the warp and weft density of pure raw silk to ensure each warp thread can be accurately counted by eye.",
+      "mediaUrl": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "mediaType": "image",
+      "stepOrder": 1,
+      "milestoneDate": "2026-09-01",
+      "createdAt": "2026-10-12T21:27:20.0536985+05:30"
+    },
+    "cj1-2": {
+      "id": "cj1-2",
+      "productId": "p1010101-1010-1010-1010-101010101010",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "title": "Executing Gavanti (Double-Running) Stitch",
+      "description": "Executing the sacred temple chariot motif. No pencil marks are drawn; the pattern emerges through patient mathematical thread counting.",
+      "mediaUrl": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "mediaType": "image",
+      "stepOrder": 2,
+      "milestoneDate": "2026-09-03",
+      "createdAt": "2026-10-13T21:27:20.0536985+05:30"
+    },
+    "cj1-3": {
+      "id": "cj1-3",
+      "productId": "p1010101-1010-1010-1010-101010101010",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "title": "Lining and Finishing with Brass Hardware",
+      "description": "Hand-stitching interior pocket compartments and reinforcing dual-density cotton strap handles with antique brass rivets.",
+      "mediaUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "mediaType": "image",
+      "stepOrder": 3,
+      "milestoneDate": "2026-09-05",
+      "createdAt": "2026-10-14T21:27:20.0536985+05:30"
+    },
+    "cj2-1": {
+      "id": "cj2-1",
+      "productId": "p2020202-2020-2020-2020-202020202020",
+      "artisanId": "22222222-2222-2222-2222-222222222222",
+      "title": "Preparing Quartz Stone Dough",
+      "description": "Pulverizing pure white quartz pebbles from the Aravalli hills, mixing with Katira gum and water into a smooth clay-free dough.",
+      "mediaUrl": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "mediaType": "image",
+      "stepOrder": 1,
+      "milestoneDate": "2026-09-10",
+      "createdAt": "2026-10-14T21:27:20.0536985+05:30"
+    },
+    "cj2-2": {
+      "id": "cj2-2",
+      "productId": "p2020202-2020-2020-2020-202020202020",
+      "artisanId": "22222222-2222-2222-2222-222222222222",
+      "title": "Freehand Floral Painting with Cobalt Oxide",
+      "description": "Painting traditional leafy creepers and lotuses using a fine camel hair brush loaded with natural cobalt oxide mineral pigment.",
+      "mediaUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "mediaType": "image",
+      "stepOrder": 2,
+      "milestoneDate": "2026-09-14",
+      "createdAt": "2026-10-15T21:27:20.0536985+05:30"
+    },
+    "cj2-3": {
+      "id": "cj2-3",
+      "productId": "p2020202-2020-2020-2020-202020202020",
+      "artisanId": "22222222-2222-2222-2222-222222222222",
+      "title": "Firing in Traditional Wood Kiln",
+      "description": "Carefully stacking within the muffle kiln and firing at 800°C for 72 hours of gradual heat and slow cooling.",
+      "mediaUrl": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "mediaType": "image",
+      "stepOrder": 3,
+      "milestoneDate": "2026-09-17",
+      "createdAt": "2026-10-16T21:27:20.0536985+05:30"
+    }
+  },
+  "customRequests": {
+    "75679dec-0585-49f9-b470-37903e50b6bc": {
+      "id": "75679dec-0585-49f9-b470-37903e50b6bc",
+      "buyerId": "44444444-4444-4444-4444-444444444444",
+      "buyerName": "Anamika Sharma",
+      "title": "Custom Heirloom Bridal Panel",
+      "description": "Need bespoke Kasuti panel with ancestral peacock gopuram",
+      "craftType": "Kasuti Embroidery",
+      "referenceImageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "isPrivate": false,
+      "budgetMin": 5000,
+      "budgetMax": 9000,
+      "desiredDate": "2026-12-25",
+      "status": "accepted",
+      "createdAt": "2026-10-22T21:34:06.3673556+05:30",
+      "updatedAt": "2026-10-22T21:34:06.3807361+05:30"
+    },
+    "cr-100": {
+      "id": "cr-100",
+      "buyerId": "44444444-4444-4444-4444-444444444444",
+      "buyerName": "Anamika Sharma",
+      "title": "Custom Wedding Kasuti Wall Hanging with Family Tree",
+      "description": "Looking for a bespoke 24x36 inch Kasuti wall panel on natural tussar silk incorporating our ancestral village temple tower and initials.",
+      "craftType": "Kasuti Embroidery",
+      "preferences": {
+        "baseFabric": "Raw Tussar Silk",
+        "colors": [
+          "Indigo",
+          "Madder Red",
+          "Mustard"
+        ],
+        "size": "24x36 inches"
+      },
+      "referenceImageUrl": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+      "isPrivate": false,
+      "budgetMin": 4500,
+      "budgetMax": 7000,
+      "desiredDate": "2026-12-15",
+      "status": "proposal_received",
+      "proposalsCount": 1,
+      "proposals": [
+        {
+          "id": "prop-100",
+          "customRequestId": "cr-100",
+          "artisanId": "11111111-1111-1111-1111-111111111111",
+          "artisanName": "Sunita Devi",
+          "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+          "proposedPrice": 5800,
+          "estimatedDays": 18,
+          "message": "Namaste Anamika ji. I would love to create this heritage heirloom for you. I have authentic hand-spun Tussar silk from Karnataka Sericulture. We will use traditional Muragi and Gavanti stitches for the family temple motif. I will provide work-in-progress photos every 5 days.",
+          "status": "pending",
+          "createdAt": "2026-10-19T21:27:20.0536985+05:30",
+          "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+        }
+      ],
+      "createdAt": "2026-10-18T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "commissionProposals": {
+    "e5b64f66-89f9-4758-84b3-5990057fa52c": {
+      "id": "e5b64f66-89f9-4758-84b3-5990057fa52c",
+      "customRequestId": "75679dec-0585-49f9-b470-37903e50b6bc",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "proposedPrice": 7200,
+      "estimatedDays": 15,
+      "message": "I will use authentic Tussar silk and pure natural madder dyes.",
+      "status": "accepted",
+      "createdAt": "2026-10-22T21:34:06.3738026+05:30",
+      "updatedAt": "2026-10-22T21:34:06.3807361+05:30"
+    },
+    "prop-100": {
+      "id": "prop-100",
+      "customRequestId": "cr-100",
+      "artisanId": "11111111-1111-1111-1111-111111111111",
+      "artisanName": "Sunita Devi",
+      "artisanAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format\u0026fit=crop\u0026w=400\u0026q=80",
+      "proposedPrice": 5800,
+      "estimatedDays": 18,
+      "message": "Namaste Anamika ji. I would love to create this heritage heirloom for you. I have authentic hand-spun Tussar silk from Karnataka Sericulture. We will use traditional Muragi and Gavanti stitches for the family temple motif. I will provide work-in-progress photos every 5 days.",
+      "status": "pending",
+      "createdAt": "2026-10-19T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "orders": {
+    "f40e7238-5607-4ef4-aaf9-140020a6d07f": {
+      "id": "f40e7238-5607-4ef4-aaf9-140020a6d07f",
+      "orderNumber": "KV-ORD-102100",
+      "buyerId": "44444444-4444-4444-4444-444444444444",
+      "buyerName": "Anamika Sharma",
+      "totalAmount": 1200,
+      "currency": "INR",
+      "status": "paid",
+      "shippingAddress": {
+        "fullName": "Anamika Sharma",
+        "phone": "+91 98110 55555",
+        "addressLine1": "14B Heritage Palms",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560034"
+      },
+      "isDemo": true,
+      "items": [
+        {
+          "id": "",
+          "orderId": "",
+          "productId": "59fc28c6-22fa-4d35-befc-7d57c9dc11ac",
+          "productTitle": "Handcrafted Test Silk Stole",
+          "productImage": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "quantity": 1,
+          "unitPrice": 1200,
+          "createdAt": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "paymentId": "86a8b50c-dbdd-47f6-bfcf-cbc85a1c0271",
+      "createdAt": "2026-10-22T21:34:06.3536115+05:30",
+      "updatedAt": "2026-10-22T21:34:06.3599973+05:30"
+    },
+    "ord-9001": {
+      "id": "ord-9001",
+      "orderNumber": "KV-ORD-2026-9001",
+      "buyerId": "44444444-4444-4444-4444-444444444444",
+      "buyerName": "Anamika Sharma",
+      "totalAmount": 1450,
+      "currency": "INR",
+      "status": "paid",
+      "shippingAddress": {
+        "fullName": "Anamika Sharma",
+        "phone": "+91 98110 55555",
+        "addressLine1": "14B, Heritage Palms, Koramangala 4th Block",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560034"
+      },
+      "isDemo": true,
+      "items": [
+        {
+          "id": "item-1",
+          "orderId": "ord-9001",
+          "productId": "p1010101-1010-1010-1010-101010101010",
+          "productTitle": "Hand-Embroidered Kasuti Silk Tote Bag",
+          "productImage": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+          "quantity": 1,
+          "unitPrice": 1450,
+          "createdAt": "2026-10-20T21:27:20.0536985+05:30"
+        }
+      ],
+      "createdAt": "2026-10-20T21:27:20.0536985+05:30",
+      "updatedAt": "2026-10-22T21:27:20.0536985+05:30"
+    }
+  },
+  "payments": {
+    "86a8b50c-dbdd-47f6-bfcf-cbc85a1c0271": {
+      "id": "86a8b50c-dbdd-47f6-bfcf-cbc85a1c0271",
+      "orderId": "f40e7238-5607-4ef4-aaf9-140020a6d07f",
+      "razorpayPaymentId": "pay_demo_test",
+      "amount": 1200,
+      "currency": "INR",
+      "status": "completed",
+      "isMock": true,
+      "createdAt": "2026-10-22T21:34:06.3599973+05:30"
+    }
+  },
+  "auditLogs": [
+    {
+      "id": "e03d3e4d-42ba-49b3-b51b-6b01874d7035",
+      "actorId": "55555555-5555-5555-5555-555555555555",
+      "actorName": "Vikramaditya Rao",
+      "action": "VERIFIED_PASSPORT",
+      "targetType": "craft_passport",
+      "targetId": "pass-1",
+      "details": {
+        "notes": "Verified by Karnataka Handloom Development Board",
+        "status": "independently-verified"
+      },
+      "createdAt": "2026-10-17T21:27:20.0536985+05:30"
+    }
+  ],
+  "verificationReviews": []
+}
