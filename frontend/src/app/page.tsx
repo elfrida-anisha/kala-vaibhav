@@ -118,8 +118,7 @@ export default function HomePage() {
                   <span>Commission Custom Piece</span>
                 </Link>
               </div>
-
-             
+            </div>
 
             {/* Right Visual Frame */}
             <div className="lg:col-span-5 relative">
